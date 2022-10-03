@@ -15,11 +15,11 @@ if(ehValido){
     console.log(`${cpfDigitado} é um CPF válido. Salvando...`);
     
     //Importar a biblioteca FS (biblioteca de manipulação de arquivos e pastas);
-    const fs = require('fs');
-    fs.appendFileSync('historico-de-cpfs.txt', cpfDigitado);
+    //const fs = require('fs');
+    //fs.appendFileSync('historico-de-cpfs.txt', cpfDigitado);
     //Agora vamos importar a função cpf e depois salvar 
-    //const salvarCpf = require('./functions/salvarCpf.js.js')
-    //salvarCpf(cpfDigitado)
+    const salvarCpf = require('./functions/salvarCpf.js')
+    salvarCpf(cpfDigitado)
 
 }else{
     //  2b - Se não for válido, emitir mensagem de erro
