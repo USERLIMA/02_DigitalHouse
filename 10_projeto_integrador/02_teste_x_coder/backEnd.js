@@ -92,5 +92,4 @@ backEnd.post('/autenticate', (req, res) => {
     }
 })
 
-backEnd.listen(3000, () => console.log('Servidor rodando na porta 3000'));
-
+backEnd.listen(3990, () => console.log('Servidor rodando na porta 3990'));
