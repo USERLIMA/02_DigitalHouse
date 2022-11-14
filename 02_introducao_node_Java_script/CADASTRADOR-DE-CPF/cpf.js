@@ -25,3 +25,4 @@ if(ehValido){
     //  2b - Se não for válido, emitir mensagem de erro
     console.error(`${cpfDigitado} não é um CPF válido`);
 }
+
