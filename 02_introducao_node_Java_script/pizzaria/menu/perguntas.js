@@ -106,3 +106,4 @@ const perguntas = [
 ]
 
 module.exports = perguntas;
+//teste

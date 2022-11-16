@@ -30,3 +30,4 @@ function startInquirer(){
 console.clear();
 startInquirer();
 //teste 2
+
