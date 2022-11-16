@@ -29,4 +29,5 @@ function startInquirer(){
 
 console.clear();
 startInquirer();
-//teste
+//teste 2
+
