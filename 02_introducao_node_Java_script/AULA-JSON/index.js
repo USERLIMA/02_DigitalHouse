@@ -1,5 +1,5 @@
 let filmes = require('./dataBase/filme.json');
-//console.log(filmes);
+console.log(filmes[0].TITULO);
 
 let nf = require('./dataBase/notaFiscal.json');
 console.log(`
