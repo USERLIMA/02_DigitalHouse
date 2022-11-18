@@ -167,8 +167,10 @@ Fase 3 - Funções dentro do arquivo PedidosServices.js:
     Função adicionarPizza:
     Função removerPizza:
     Função marcarComoEntregue:
-    
-            
-    
 
-    
+OBS.: DESENVOLVIMENTO
+
+... Dicas:
+
+1 - Para ecrever n arquivo utilizar a biblioteca fs.writefilesync
+2 - Para criptografar uma senha utilize a bcrypt, com a função bcrypt.hashsync("texto", 20)
