@@ -59,4 +59,3 @@ if(nomeDigitado == undefined){
     // DICAS:
     // fs.writeFileSync para escrever no arquivo
     // JSON.stringify() para transformar o array pessoas em um uma string
-
