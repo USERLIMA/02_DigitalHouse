@@ -19,27 +19,39 @@ OBS.: O campo id deve ser unico para cada usuário.
 */
 
 const fs = require('fs');
+const bcrypt = require('bcrypt');
 
 //Importar o array de usuários na variável usuários
 const usuarios = require('../dataBases/usuarios.json');
 
 // cadastrar a função
-function cadastrarUsuario (objeto){
+function cadastrarUsuario(objeto){
 
+    //Objeto com os dados estruturados
+    let usuario = {
+        Id: 123,
+        nome:objeto.nome,
+        email: objeto.email,
+        senha: bcrypt.hashSync(objeto.senha, 10),
+        enderecos: [objeto.enderecos],
+        formasDePagamentos: []
+        
+    }
     //Adicionar o objeto ao final do array usuários (usuarios.push)
-    usuarios.push(objeto);
+    //usuarios.push(objeto);
+    usuarios.push(usuario);
 
     //salvar objeto no arquivo
-    fs.writeFileSync('./dataBases/usuarios.json', JSON.stringify(usuarios)); // <-- JSON.stringify irá transformar um ojeto ou um array em uma string do tipo JSON
+    fs.writeFileSync('./dataBases/usuarios.json', JSON.stringify(usuarios, null, 4)); // <-- JSON.stringify irá transformar um ojeto ou um array em uma string do tipo JSON
 
 };
 
 //testar a função
 let usuario = {
-    nome: "Raul das Flores",
-    "email": "raul@dasFlores.com",
-    "senha": "abcde",
-    "enderecos": "Rua das Camélias, 99"
+    nome: "Raul das Árvores Dias 2",
+    "email": "raul@dasFloresDias2.com",
+    "senha": "abcdef123",
+    "enderecos": "Rua das Camélias, 243"
 };
 
-cadastrarUsuario(usuario);sss
+cadastrarUsuario(usuario);
