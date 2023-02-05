@@ -174,5 +174,27 @@
         "img": "/img/quatroqueijos.jpg",
         "destaque": true,
         "score": 3
+    },
+    {
+        "Id": 14,
+        "nome": "Calabresa",
+        "ingredientes": [
+            "mussarela",
+            "calabresa",
+            "cebola"
+        ],
+        "preco": 38.5,
+        "img": "/img/calabresa.jpg"
+    },
+    {
+        "Id": 15,
+        "nome": "Calabresa com alho",
+        "ingredientes": [
+            "mussarela",
+            "calabresa",
+            "alho"
+        ],
+        "preco": 38.5,
+        "img": "/img/calabresa.jpg"
     }
 ]
