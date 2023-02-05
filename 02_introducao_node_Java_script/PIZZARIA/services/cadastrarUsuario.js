@@ -27,8 +27,8 @@ const usuarios = require('../dataBases/usuarios.json');
 // cadastrar a função
 function cadastrarUsuario(objeto){
 
-    let novoId = usuarios[usuarios.length - 1].id + 1;
     let senhaCriptografada = bcrypt.hashSync(objeto.senha, 10);
+    let novoId = (usuarios[usuarios.length - 1]).Id + 1;
 
     //Objeto com os dados estruturados
     let usuario = {
@@ -51,12 +51,13 @@ function cadastrarUsuario(objeto){
 
 };
 
+
 //testar a função
-let usuario = {
-    nome: "Raul das Árvores Dias 3",
-    "email": "raul@dasFloresDias3.com",
-    "senha": "abcdef12345678",
-    "enderecos": "Rua das Camélias, 244"
+let usuarioTeste = {
+    nome: "Raul das Árvores Dias 5",
+    "email": "raul@dasFloresDias5.com",
+    "senha": "abcdef12345678906789",
+    "enderecos": "Rua das Camélias, 246"
 };
 
-cadastrarUsuario(usuario);
+cadastrarUsuario(usuarioTeste);

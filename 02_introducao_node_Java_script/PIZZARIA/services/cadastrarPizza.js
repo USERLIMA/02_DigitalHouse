@@ -1,12 +1,27 @@
 const fs = require('fs');
+const pizzas = require('../dataBases/pizzas.json')
 
-cadastrarPizza(objeto){
+function cadastrarPizza(objetoPizza){
 
     // Descobrir novo id da pizza
+    let novoId = (pizzas[pizzas.length - 1]).Id + 1;
 
-    // Adicionar esse novo id ao objeto pizza
+    //objetoPizza com os dados estruturados
+    let novaPizza = {
+        Id: novoId,
+        // 123,
+        nome:objetoPizza.nome,
+        ingredientes: objetoPizza.ingredientes,
+        preco: objetoPizza.preco,
+        img: objetoPizza.img
+        
+    }
+    //Adicionar o objetoPizza ao final do array usuários (usuarios.push)
+    //usuarios.push(objetoPizza);
+    pizzas.push(novaPizza);
 
-    // Salvar a pizza no array de pizzas 
+    //salvar objetoPizza no arquivo
+    fs.writeFileSync('./dataBases/pizzas.json', JSON.stringify(pizzas, null, 4)); // <-- JSON.stringify irá transformar um ojeto ou um array em uma string do tipo JSON
 
 }
 
@@ -26,11 +41,11 @@ let pizza = {
 }*/
 
 let pizza = {
-    "nome": "Calabresa",
+    "nome": "Calabresa com alho",
     "ingredientes": [
         "mussarela",
         "calabresa",
-        "cebola"
+        "alho"
     ],
     "preco": 38.5,
     "img": "/img/calabresa.jpg",
