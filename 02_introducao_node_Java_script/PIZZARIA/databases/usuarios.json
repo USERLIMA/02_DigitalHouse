@@ -54,5 +54,15 @@
             "Rua das Camélias, 243"
         ],
         "formasDePagamentos": []
+    },
+    {
+        "Id": 123,
+        "nome": "Raul das Árvores Dias 3",
+        "email": "raul@dasFloresDias3.com",
+        "senha": "$2b$10$7BeWn77csL8igOnZ4H5br.Ceb1FKPXXj4HsiWruaxVjXCCLPp5n1C",
+        "enderecos": [
+            "Rua das Camélias, 244"
+        ],
+        "formasDePagamentos": []
     }
 ]
