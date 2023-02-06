@@ -1,0 +1,14 @@
+[
+    {
+        "Id": 123,
+        "nome": "Raul das Árvores Dias 2",
+        "email": "raul@dasFloresDias2.com",
+        "senha": "abcdef123",
+        "enderecos": [
+            "Rua das Camélias, 243"
+        ],
+        "formasDePagamentos": [
+            "1234 1234 "
+        ]
+    }
+]
