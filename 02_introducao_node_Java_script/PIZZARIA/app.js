@@ -13,7 +13,9 @@ const servidor = express();
 // servidor.get('/usuarios', (req,res)=>
 // {
 //     console.log("Chegou uma requisição!")
-//     res.send("Vou te mandar uma lista de usuários... teste com nodemon");
+     //res.send("Vou te mandar uma lista de usuários... teste com nodemon");
+     //return res.sendFile("./view/index.html"); 
+//     return res.sendFile(_dirname + "/view/index.html"); 
 // });
 
 servidor.use(router);
