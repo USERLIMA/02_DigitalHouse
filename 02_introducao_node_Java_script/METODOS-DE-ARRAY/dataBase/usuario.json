@@ -10,5 +10,27 @@
         "formasDePagamentos": [
             "1234 1234 "
         ]
+    },
+    {
+        "Id": 124,
+        "nome": "Baul das Árvores Dias 3",
+        "email": "raul@dasFloresDias3.com",
+        "senha": "abcdef1234",
+        "enderecos": [
+            "Rua das Camélias, 244"
+        ],
+        "formasDePagamentos": [
+            "1234 1234 5"
+        ]
+    },
+    {
+        "Id": 125,
+        "nome": "Raul das Árvores Dias 4",
+        "email": "raul@dasFloresDias4.com",
+        "senha": "abcdef1235656",
+        "enderecos": [
+            "Rua das Camélias, 245"
+        ],
+        "formasDePagamentos": []
     }
 ]
