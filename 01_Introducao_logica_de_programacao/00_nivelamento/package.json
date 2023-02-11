@@ -1,0 +1,19 @@
+{
+  "name": "devweb",
+  "version": "1.0.0",
+  "main": "teste.js",
+  "scripts": {
+    "start": "nodemon teste.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "description": ""
+}
