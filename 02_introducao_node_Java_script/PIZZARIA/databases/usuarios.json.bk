@@ -1,0 +1,88 @@
+[
+    {
+        "nome": "Raul das Árvores Dias",
+        "email": "raul@dasFloresDias.com",
+        "senha": "abcdef",
+        "enderecos": "Rua das Camélias, 123"
+    },
+    {
+        "nome": "Raul das Árvores Dias",
+        "email": "raul@dasFloresDias.com",
+        "senha": "abcdef",
+        "enderecos": "Rua das Camélias, 123"
+    },
+    {
+        "nome": "Raul das Árvores Dias",
+        "email": "raul@dasFloresDias.com",
+        "senha": "abcdef",
+        "enderecos": "Rua das Camélias, 123"
+    },
+    {
+        "nome": "Raul das Árvores Dias",
+        "email": "raul@dasFloresDias.com",
+        "senha": "abcdef",
+        "enderecos": "Rua das Camélias, 123"
+    },
+    {
+        "nome": "Raul das Árvores Dias",
+        "email": "raul@dasFloresDias.com",
+        "senha": "abcdef",
+        "enderecos": "Rua das Camélias, 123"
+    },
+    {
+        "nome": "Raul das Árvores Dias 2",
+        "email": "raul@dasFloresDias2.com",
+        "senha": "abcdef123",
+        "enderecos": "Rua das Camélias, 243"
+    },
+    {
+        "Id": 123,
+        "nome": "Raul das Árvores Dias 2",
+        "email": "raul@dasFloresDias2.com",
+        "senha": "abcdef123",
+        "enderecos": [
+            "Rua das Camélias, 243"
+        ],
+        "formasDePagamentos": []
+    },
+    {
+        "Id": 123,
+        "nome": "Raul das Árvores Dias 2",
+        "email": "raul@dasFloresDias2.com",
+        "senha": "$2b$10$bentAvw7KhbpblHVFsMfnuMdQQWpHTv20Ltvf2etO9GQEQDNsw2hS",
+        "enderecos": [
+            "Rua das Camélias, 243"
+        ],
+        "formasDePagamentos": []
+    },
+    {
+        "Id": 123,
+        "nome": "Raul das Árvores Dias 3",
+        "email": "raul@dasFloresDias3.com",
+        "senha": "$2b$10$7BeWn77csL8igOnZ4H5br.Ceb1FKPXXj4HsiWruaxVjXCCLPp5n1C",
+        "enderecos": [
+            "Rua das Camélias, 244"
+        ],
+        "formasDePagamentos": []
+    },
+    {
+        "Id": 124,
+        "nome": "Raul das Árvores Dias 5",
+        "email": "raul@dasFloresDias5.com",
+        "senha": "$2b$10$X8jNGKQxW8yceWpKzp74qeDB6rmvw6nTnDoCGMMfSKy/5VS7tXxN.",
+        "enderecos": [
+            "Rua das Camélias, 246"
+        ],
+        "formasDePagamentos": []
+    },
+    {
+        "Id": 125,
+        "nome": "Raul das Árvores Dias 5",
+        "email": "raul@dasFloresDias5.com",
+        "senha": "$2b$10$PKupfYsEBRmbWStNi4OCVOiaRv/fnrv80J0NwMbhXBFR7.QqsVYI2",
+        "enderecos": [
+            "Rua das Camélias, 246"
+        ],
+        "formasDePagamentos": []
+    }
+]

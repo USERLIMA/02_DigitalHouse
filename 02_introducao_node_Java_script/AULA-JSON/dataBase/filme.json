@@ -1,0 +1,51 @@
+[
+        {
+            "CODIGO": 2077,
+            "TITULO": "CYBERPUNK",
+            "TEMPO": 400.34,
+            "ATORES": 
+            [
+                {
+                "nome":"Jonhy Silverhand",
+                "apelido": "V"
+                }
+            ],
+            "LANÇAMENTO": 2021,
+            "CARTAZ": false,
+            "ANO": 2022,
+            "SINOPSE": "Futuro distante com muita porradaria"
+        },
+        {
+            "CODIGO": 2022,
+            "TITULO": "MATRIX",
+            "TEMPO": 3,
+            "ATORES": 
+            [
+                {
+                "nome":"Nicolas Kage",
+                "apelido": "Kage"
+                }
+            ],
+            "LANÇAMENTO": 2021,
+            "CARTAZ": true,
+            "ANO": 2022
+
+        },
+
+        {
+            "CODIGO": 2023,
+            "TITULO": "AVATAR",
+            "TEMPO": 500,
+            "ATORES": 
+            [
+                {
+                "nome":"Tuncuncun",
+                "apelido": "Tuncun"
+                }
+            ],
+            "LANÇAMENTO": 2022,
+            "CARTAZ": false,
+            "ANO": 2022
+                
+        }
+]
