@@ -1,6 +1,6 @@
 const usuariosServices = require('../services/UsuariosServices')
 
-UsuariosServices.alterarFormaDePagamento('asdasd',1,1)
+usuariosServices.alterarFormaDePagamento('asdasd',1,1)
 
 // ----------------------------------------------------------------------
 
