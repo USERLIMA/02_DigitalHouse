@@ -20,12 +20,20 @@ servidor.use(express.static(path.join(__dirname, 'public')))
 //     return res.sendFile(_dirname + "/views/index.html"); 
 // });
 
+// servidor.get('/', (req,res)=>
+// {
+//     return res.sendFile(_dirname + "/views/index.html"); 
+// });
 
 // servidor.get("/logo", (req, res)=> {
 //      return res.sendFile(_dirname + "/public/img/logo.sgv"); 
 // })
 
+// servidor.get("/carrinho", (req,res) => {
+//      return res.sendFile(_dirname + "/views/carrinho.html"); 
+// })
+
 servidor.use(router);
 
 // 4 - Por o servidor no modo "aguardando requisição"
-servidor.listen(3000);
+servidor.listen(3008);
