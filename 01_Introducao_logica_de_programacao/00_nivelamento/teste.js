@@ -488,3 +488,50 @@ console.log(sumTotal)
 
 //20.03
 
+// server - aulas 
+
+const http = require('http')
+http.createServer((req, res) =>  {
+	console.log("Instanciando um servidor");
+}).listen(3000, 'localhost', () => {
+  console.log("Servidor escutando na porta 3000");
+});
+
+// teste 2 
+
+const express = require('express');
+const app = express();
+app.listen(8000, () => {
+  console.log("Levantando um servidor com Express");
+});
+//  teste 4
+
+//const express = require('express');
+//const app = express()
+// Escreva seu código aquí
+
+
+app.get('/home', (req, res) => {
+  res.send('Olá, estamos na página home');
+});
+
+app.listen(8000, () => {
+  console.log("Levantando um servidor com Express");
+});
+
+// teste 5
+
+// const express = require('express');
+// const app = express();
+
+let boasVindas = "Bem vindo/a, aqui estamos em seu perfil"
+// Escreva seu código aqui
+
+app.get('/perfil', (req, res) => {
+  res.send(boasVindas);
+});
+
+app.listen(8000, () => {
+  console.log("Levantando um servidor com Express");
+});
+

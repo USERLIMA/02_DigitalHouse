@@ -121,3 +121,73 @@ function comissao(preco,porcentagem){
       }
       
       console.log(series(harryPotterPrefixo,harryPotterSeries))
+
+// ex. 16
+
+function calcularIdade(dataDeNascimento) {
+  const hoje = new Date();
+  const anoAtual = hoje.getFullYear();
+  const mesAtual = hoje.getMonth() + 1;
+  const diaAtual = hoje.getDate();
+
+  const [diaNascimento, mesNascimento, anoNascimento] = dataDeNascimento.split("/").map(Number);
+  let idade = anoAtual - anoNascimento;
+  if (mesAtual < mesNascimento || (mesAtual === mesNascimento && diaAtual < diaNascimento)) {
+    idade -= 1;
+  }
+
+  return idade;
+}
+
+function deixaEntrar(dataDeNascimento, censura) {
+  return calcularIdade(dataDeNascimento) >= censura;
+}
+
+
+// teste 2 
+
+let dia = "sabado";
+
+function fimDeSemana(dia){
+	//criação do switch
+
+switch(dia){
+    case "segunda":
+        console.log("você tem aulas!");
+        break;
+    case "quarta":
+        console.log("você tem aulas!");
+        break;
+    case "sexta":
+        console.log("você tem aulas!");
+        break;
+    default:
+        console.log("você não tem aulas");
+}
+
+}
+
+fimDeSemana(dia)
+
+// teste 
+
+let dia = 'segunda-feira'
+
+
+function fimDeSemana(dia) {
+    switch (dia) {
+        case "sexta-feira":
+            console.log("Bom fim de semana!");
+            break;
+        case "segunda-feira":
+            console.log("Boa semana!");
+            break;
+        default:
+            console.log("Bom dia!");
+    }
+}
+
+fimDeSemana(dia);
+
+// teste 
+
