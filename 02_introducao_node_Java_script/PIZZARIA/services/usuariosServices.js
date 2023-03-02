@@ -38,10 +38,21 @@ function detalhar(idUsuario){
 
 function remover(idDoUsuarioParaRemover){
     // Seu código aqui
+    const removerUsuario = usuarios.findIndex(usuario=>usuario.Id == idDoUsuarioParaRemover)
+    usuarios.splice(removerUsuario,1)
+    salvar (usuarios)
 }
 
 function alterar(novosDados, idUsuario){
     // Seu código aqui
+    console.log(novosDados)
+    let senhaCriptografada = bcrypt.hashSync(novosDados.senha, 10);
+    const usuarioId = usuarios.find(usuario=>usuario.id == usuarioId);
+        usuarioId.nome = novosDados.nome
+        usuarioId.email = novosDados.email 
+        usuarioId.senha = novosDados.senhaCriptografada
+    salvar(usuarios)
+console.log(usuarioId)
 }
 
 function addEndereco(novoEndereco, idUsuario){
