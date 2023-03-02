@@ -1,8 +1,7 @@
 [
     {
-        "nome": "Raul das Árvores Dias",
-        "email": "raul@dasFloresDias.com",
-        "senha": "abcdef",
+        "nome": "Raul das Árvores Dias 7",
+        "email": "raul@dasFloresDias5.com",
         "enderecos": "Rua das Camélias, 123"
     },
     {
@@ -77,9 +76,8 @@
     },
     {
         "Id": 125,
-        "nome": "Raul das Árvores Dias 5",
+        "nome": "Raul das Árvores Dias 9",
         "email": "raul@dasFloresDias5.com",
-        "senha": "$2b$10$PKupfYsEBRmbWStNi4OCVOiaRv/fnrv80J0NwMbhXBFR7.QqsVYI2",
         "enderecos": [
             "Rua das Camélias, 246"
         ],
