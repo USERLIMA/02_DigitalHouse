@@ -1,6 +1,7 @@
 const express = require('express')
 
 const servidor = express()
+
 const porta = 3001
 
 servidor.use(express.json())
