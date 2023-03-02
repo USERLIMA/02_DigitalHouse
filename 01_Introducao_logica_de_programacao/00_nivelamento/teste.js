@@ -534,4 +534,3 @@ app.get('/perfil', (req, res) => {
 app.listen(8000, () => {
   console.log("Levantando um servidor com Express");
 });
-
