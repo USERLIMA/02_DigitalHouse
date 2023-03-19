@@ -1,0 +1,14 @@
+.primeiro {
+    position: relative;
+    left: 20px;
+    top: 30px;
+    background-color: aqua;
+}
+
+.segundo {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    background-color: red;
+    color: white;
+}

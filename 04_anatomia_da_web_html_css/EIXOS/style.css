@@ -1,0 +1,7 @@
+.frase-cortazar {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  

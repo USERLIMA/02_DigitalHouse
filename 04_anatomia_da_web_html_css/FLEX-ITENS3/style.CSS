@@ -1,0 +1,8 @@
+.tetris {
+    display: flex;
+  }
+  
+.peca-tetris {
+    order: 3;
+    align-self : flex-end
+}

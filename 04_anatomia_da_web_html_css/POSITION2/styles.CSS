@@ -1,0 +1,14 @@
+.container {
+    position: relative;
+}
+
+.gorro {
+    position:absolute;
+    width: 120px;
+    left: 190px;
+}
+
+.gato {
+    position:relative;
+    top: 5px;
+}
