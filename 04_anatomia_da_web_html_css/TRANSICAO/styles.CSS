@@ -1,0 +1,22 @@
+.meu-elemento {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+
+    /* width: 100px;
+    height: 100px;
+    background-color: #f00;
+    border-radius: 50%;
+    transition: border-radius 1s; */
+
+    transition: border-radius 450ms;
+
+}
+ 
+.meu-elemento:hover {
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    border-radius: 50%;
+    transition: border-radius 1s;
+}

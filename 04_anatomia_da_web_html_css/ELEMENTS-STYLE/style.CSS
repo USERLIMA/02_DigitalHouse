@@ -4,6 +4,12 @@
     align-items: center;
   }
   
-  .ligacoes img, .nav-bar ul {
+.ligacoes, .nav-bar ul {
     flex: 1;
+;
   }
+
+img{
+  width: 5%;
+  height: 5%
+}

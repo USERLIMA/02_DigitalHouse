@@ -1,0 +1,15 @@
+.vermelho {
+    position: relative;
+    z-index: 10;
+    background-color: red;
+    height: 250px;
+    width: 250px;
+}
+  
+.amarelo {
+    position: relative;
+    top: 20px;
+    background-color: yellow;
+    height: 125px;
+    width: 125px;
+}
