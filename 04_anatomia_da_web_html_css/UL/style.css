@@ -1,0 +1,10 @@
+.nav-bar {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li {
+    margin-right: 10px; /* ou o valor desejado */
+  }
