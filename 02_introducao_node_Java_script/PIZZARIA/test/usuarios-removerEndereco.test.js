@@ -1,4 +1,4 @@
-const usuariosServices = require('../services/UsuariosServices');
+const usuariosServices = require('../services/usuariosServices');
 
 let novosDados = {
     nome: "Raul",

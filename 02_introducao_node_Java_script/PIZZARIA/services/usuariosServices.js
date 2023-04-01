@@ -95,35 +95,45 @@ console.log(usuarioId)
 
 function addEndereco(novoEndereco, idUsuario){
     // Seu código aqui
+    let usuarioId = usuarios.findIndex(usuario => idUsuario === usuario.Id);
+    usuarios[usuarioId].enderecos.push(novoEndereco);
+    salvar(usuarios)
 }
 
 function removerEndereco(posicaoDoEndereco, idUsuario)
 {
     // Seu código aqui
-    let usuario = usuarios.find(function(usuarios){
-        return usuario.Id === idUsuario
-    })
+    const usuarioId = usuarios.findIndex(usuario => usuario.id === idUsuario);
 
-if(usuario != undefined){
-    usuario.enderecos.splice(posicaoDoEndereco, 1)
-} else {
-    console.erro("Esse Id não existe")
-}
+    let removerEndereco = usuarios[usuarioId].enderecos.splice(posicaoDoEndereco,1);
+
+//     let usuario = usuarios.find(function(usuarios){
+//         return usuario.Id === idUsuario
+//     })
+
+// if(usuario != undefined){
+//     usuario.enderecos.splice(posicaoDoEndereco, 1)
+// } else {
+//     console.erro("Esse Id não existe")
+// }
 
     salvar(usuarios)
 
 }
 
 function alterarEndereco(posicaoDoEndereco, novoEndereco, idUsuario){
-// Seu código aqui        
+// Seu código aqui
+const usuarioId = usuarios.findIndex(usuario => usuario.Id === idUsuario);        
 }
 
 function addFormaDePagamento(novaFormaDePagamento, idUsuario){
     // Seu código aqui
+    
 }
 
 function removerFormaDePagamento(posicaoDaFormaDePagamento, idUsuario){
     // Seu código aqui
+
 }
 
 function alterarFormaDePagamento(novaFormaDePagamento, posicaoDaFormaDePagamento, idUsuario){

@@ -2,22 +2,20 @@ As funções abaixo devem ser criadas dentro dos arquivos da pasta services.
 
 Fase 1 - Funções dentro do arquivo UsuariosServices.js:
 
-    Função listar:
+    Função listar: OK + listarNomes + buscar
 
         Objetivo: Exibir uma tabela somente com index, id, nome e email do usuário
         Essa função não deve receber nenhum parâmetro
         Essa função não retorna nada
         
-    
-    Função salvar:
+    Função salvar: OK
 
         Objetivo: Essa função deve salvar um array de usuários no arquivo databases/usuarios.json
         Essa função não será exportada.
         Essa função recebe um array de usuários como parâmetro
         Essa função não retorna nada
-
-    
-    Função cadastrar:
+ 
+    Função cadastrar: OK
 
         Objetivo: Essa função deve receber dados de um usuário e registrar um novo usuário no array presente no arquivo usuarios.json. O objeto contendo os dados do usuário devem seguir o seguinte modelo.
         {
@@ -41,8 +39,6 @@ Fase 1 - Funções dentro do arquivo UsuariosServices.js:
         Essa função não deve retornar nada
         O id do novo usuário deve ser único.
         A senha do usuário deve ser armazenada criptografada.
-
-
 
     Função detalhar:
 
@@ -71,16 +67,13 @@ Fase 1 - Funções dentro do arquivo UsuariosServices.js:
         Essa função deve receber o id de um usuário.
         Ela não deve retornar nada.
 
-
-    
-    Função remover:
+    Função remover: OK
         
         Objetivo: A função deve remover um usuário do arquivo usuarios.json a partir do seu id.
         Essa função deve receber o id de um usuário.
         Ela não deve retornar nada.
-
     
-    Função alterar:
+    Função alterar: OK
 
         Objetivo: A função deve alterar os dados de pessoais de um usuário (nome, email e senha).
         Ela recebe dois parâmetros.
@@ -93,7 +86,6 @@ Fase 1 - Funções dentro do arquivo UsuariosServices.js:
         O segundo, o id do usuário que terá seus dados alterados.
         A senha deve ser armazenada criptografada.
         Essa função não retorna nada
-
     
     Função addEndereco:
 
@@ -103,7 +95,6 @@ Fase 1 - Funções dentro do arquivo UsuariosServices.js:
         O segundo, o id do usuário que terá adicionado o novo endereço.
         Essa função não retorna nada.
 
-
     Função removerEndereco:
     
         Objetivo: A função deve remover o endereço especificado de um usuário.
@@ -111,7 +102,6 @@ Fase 1 - Funções dentro do arquivo UsuariosServices.js:
         O primeiro, a posicao do endereço no array de endereços do usuário
         O segundo, o id do usuário que terá o endereço removido
         Essa função não retorna nada.
-
     
     Função alterarEndereco:
         
@@ -121,7 +111,6 @@ Fase 1 - Funções dentro do arquivo UsuariosServices.js:
         O segundo, uma string contendo o novo endereço.
         O terceiro, o id do usuário que terá um endereço alterado
 
-
     Função addFormaDePagamento:
 
         Objetivo: A função deve adicionar uma nova forma de pagamento no array de formasDePagamento do usuário e atualizar o arquivo usuarios.json
@@ -130,7 +119,6 @@ Fase 1 - Funções dentro do arquivo UsuariosServices.js:
         O segundo, o id do usuário que terá adicionada a nova forma de pagamento.
         Essa função não retorna nada.
 
-
     Função removerFormaDePagamento:
     
         Objetivo: A função deve remover a forma de pagamento especificada de um usuário.
@@ -138,8 +126,7 @@ Fase 1 - Funções dentro do arquivo UsuariosServices.js:
         O primeiro, a posicao da forma de pagamento no array de formas de pagamento do usuário
         O segundo, o id do usuário que terá o array removido
         Essa função não retorna nada.
-        
-    
+   
     Função alterarFormaDePagamento:
         
         Objetivo: A função deve alterar uma forma de pagamento de um usuário.
@@ -147,7 +134,6 @@ Fase 1 - Funções dentro do arquivo UsuariosServices.js:
         O primeiro, a posicao da forma de pagamento no array de formas de pagamentos do usuário
         O segundo, uma string contendo a nova forma de pagamento.
         O terceiro, o id do usuário que terá a forma de pagamento alterada.
-
 
 
 Fase 2 - Funções dentro do arquivo PizzasServices.js:
