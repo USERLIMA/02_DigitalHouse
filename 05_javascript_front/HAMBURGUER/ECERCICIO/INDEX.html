@@ -9,7 +9,8 @@
     <title>Menu Hamburguer</title>
     <link rel="stylesheet" href="STYLES.css">
     <!-- Essa propriedade 'defer' da tag script avisa para o navegador que esse script precisa ser baixado em segundo plano -->
-    <script defer scr="MENU.js"></script> 
+    <!-- <script defer scr="MENU.js"></script>  -->
+    <script defer src="MENU.js"></script>
 </head>
 <body>
     <header>
@@ -41,17 +42,5 @@
     </header>
     <main></main>    
     <footer></footer>
-    <script>
-        let show = true;
-            const menuContainer = document.querySelector("#menu-container");
-            const hamburguer = menuContainer.querySelector("#hamburger");
-        
-            hamburguer.addEventListener("click", () => {
-                document.body.style.overflow = show ? "hidden" : "initial";
-        
-                menuContainer.classList.toggle("on", show)
-                show = !show
-            })
-        </script>
 </body>
 </html>

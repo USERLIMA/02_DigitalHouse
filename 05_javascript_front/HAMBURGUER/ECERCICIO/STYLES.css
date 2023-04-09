@@ -32,6 +32,8 @@ header {
 
 #hamburguer {
     width: 40px;
+    margin-top: 10px; /* Adicione a margem desejada ao topo */
+    margin-right: 10px; /* Adicione a margem desejada à direita */
 }
 
 .barrinha-um,
@@ -77,6 +79,13 @@ header {
     position: absolute;
     top: 15px;
     right: 10px;
+}
+
+#menu-container.on > nav > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #menu-container.on > nav > ul > li:hover {
