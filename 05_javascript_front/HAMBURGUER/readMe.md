@@ -32,3 +32,23 @@
 <pre class=" language-js" tabindex="0">
     <code class=" language-js">window.document.body.style.backgroundColor = '#ffffff';
 </code></pre>
+
+<h2 href="#js">6 - Query selector c/ filtros</h2>
+<pre class=" language-js" tabindex="0">
+<code class=" language-js">document.querySelector("article > p")[0].innerText = 'Hello World';
+</code></pre>
+
+<h2 href="#js">7 - Adicionando campos</h2>
+<pre class=" language-js" tabindex="0">
+<code class=" language-js">document.getElementsByTagName("TagName")[0].ClassList.add("article");
+</code></pre>
+
+<h2 href="#js">8 - toggle</h2>
+<pre class=" language-js" tabindex="0">
+<code class=" language-js">document.getElementsByTagName("TagName")[0].ClassList.toggle("article");
+</code></pre>
+
+<h2 href="#js">9 - removendo arquivos</h2>
+<pre class=" language-js" tabindex="0">
+<code class=" language-js">document.getElementsByTagName("TagName")[0].ClassList.remove("article");
+</code></pre>

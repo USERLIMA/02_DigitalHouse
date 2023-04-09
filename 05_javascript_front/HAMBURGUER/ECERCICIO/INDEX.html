@@ -1,0 +1,57 @@
+<!-- position: absolute é sempre relativa ao body, exceto, caso tenha algum elemento HTML com position relative (seria como se fosse um elemento a parte) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Hamburguer</title>
+    <link rel="stylesheet" href="STYLES.css">
+    <!-- Essa propriedade 'defer' da tag script avisa para o navegador que esse script precisa ser baixado em segundo plano -->
+    <script defer scr="MENU.js"></script> 
+</head>
+<body>
+    <header>
+        <div id="logo-container">
+            <img src="../ASSETS/digital-house.png" alt="Logo">
+        </div>
+        
+        <div id="menu-container" class="">
+            <div id="hamburguer">
+                <div class="barrinha-um"></div>
+                <div class="barrinha-dois"></div>
+                <div class="barrinha-tres"></div>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a>
+                            HOME
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            CATÁLOGO
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main></main>    
+    <footer></footer>
+    <script>
+        let show = true;
+            const menuContainer = document.querySelector("#menu-container");
+            const hamburguer = menuContainer.querySelector("#hamburger");
+        
+            hamburguer.addEventListener("click", () => {
+                document.body.style.overflow = show ? "hidden" : "initial";
+        
+                menuContainer.classList.toggle("on", show)
+                show = !show
+            })
+        </script>
+</body>
+</html>
